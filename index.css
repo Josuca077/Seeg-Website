@@ -1,6 +1,7 @@
 :root {
-    --white-color: #cccccc;
+    --white-color: #a7a4a4;
     --black-color: #0e0d0d;
+    --infoBtn-color: #037e03;
 }
 
 * {
@@ -31,10 +32,11 @@ header {
     margin: 0;
 }
 
-#carroImg {
+#carImg {
     width: 200px;
     height: 150px;
     object-fit: cover;
+    border-radius: .7rem;
 }
 
 header span {
@@ -50,4 +52,24 @@ main {
     justify-content: space-between;
     flex-grow: 1;
     margin: 4rem;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    border: .15rem solid var(--black-color);
+    padding-top: 1.5rem !important;
+    padding-bottom: .7rem !important;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.infoBtn {
+    background-color: var(--infoBtn-color);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
