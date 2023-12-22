@@ -19,7 +19,7 @@ header {
     display: flex;
     flex-direction: row;
     font-weight: 700;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: var(--white-color);
     background-color: var(--black-color);
@@ -39,19 +39,17 @@ header {
     border-radius: .7rem;
 }
 
-header span {
-    margin: 1rem;
-}
-
 main {
     display: flex;
 }
 
 #carros {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-grow: 1;
     margin: 4rem;
+    justify-content: space-evenly;
 }
 
 .products {
@@ -61,6 +59,7 @@ main {
     padding-top: 1.5rem !important;
     padding-bottom: .7rem !important;
     padding: 0 1rem;
+    margin: 1rem;
     border-radius: 1rem;
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
 }
