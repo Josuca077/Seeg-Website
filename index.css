@@ -1,9 +1,10 @@
 :root {
     --header-color: #000000;
+    --font-color-white: #ffffff;
 }
 
 *{
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -15,11 +16,10 @@ body{
 
 header {
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
 
-    padding: 0 5rem;
+    padding: 0 7.5rem;
 
     background-color: var(--header-color);
 }
@@ -33,17 +33,36 @@ header {
     margin: 1rem;
 }
 
-span {
-    color: white;
-}
-
 #pin-section {
+    display: flex;
+    justify-content: space-evenly;
+
+    font-weight: 500;
+    color: var(--font-color-white);
+
     width: 15vh;
 }
 
 #pin {
     width: 1rem;
 }
+
+@media (max-width: 768px) {
+
+    #space {
+        display: none;
+    }
+
+    header {
+        flex: space-between;
+        padding: 0 1rem;
+    }
+    .header-elements {
+        font-size: .8rem;
+    }
+} 
+
+
 
 .car-img {
     width: 5rem;
