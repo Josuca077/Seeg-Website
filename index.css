@@ -3,10 +3,48 @@
 }
 
 *{
+    
+}
+
+body{
     display: flex;
     flex-direction: column;
+
+    margin: 0;
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5rem;
+
     background-color: var(--header-color);
+}
+
+#space {
+    width: 15vh;
+}
+
+#logo-seeg {
+    width: 15vh;
+    margin: 1rem;
+}
+
+span {
+    color: white;
+}
+
+#pin-section {
+    width: 15vh;
+}
+
+#pin {
+    width: 1rem;
+}
+
+.car-img {
+    width: 5rem;
 }
