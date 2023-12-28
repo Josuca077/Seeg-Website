@@ -1,6 +1,7 @@
 :root {
     --header-color: #000000;
     --font-color-white: #ffffff;
+    --main-color: #FA8353;
 }
 
 *{
@@ -10,9 +11,12 @@
 body{
     display: flex;
     flex-direction: column;
+    
 
     margin: 0;
 }
+
+/* Header stylish started */
 
 header {
     display: flex;
@@ -24,35 +28,115 @@ header {
     background-color: var(--header-color);
 }
 
-#space {
-    width: 15vh;
+#header-text {
+    width: 10rem;
+    color: var(--font-color-white);
+    font-weight: 500;
 }
 
 #logo-seeg {
-    width: 15vh;
+    width: 10rem;
     margin: 1rem;
 }
 
-#pin-section {
+#right-section {
     display: flex;
     justify-content: space-evenly;
 
     font-weight: 500;
     color: var(--font-color-white);
 
-    width: 15vh;
+    width: 10rem;
 }
 
 #pin {
     width: 1rem;
 }
 
+#left-section {
+    display: flex;
+}
+
+#car-pin {
+    width: 1.3rem;
+
+    padding-right: 1rem;
+    padding-bottom: .1rem;
+}
+
+/* Header stylish finished */
+
+/* Banner stylish start */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 3rem;
+}
+
+.banner {
+    border-radius: 1rem;
+}
+
+#banner1 {
+    width: 100rem;
+}
+
+#banner2 {
+    width: 34.45rem;
+
+    margin-right: 1.5rem;
+}
+
+#banner3 {
+    width: 64.05rem;
+}
+
+#top-banner {
+    margin-bottom: 1.5rem;
+}
+
+/* Banner stylish finished */
+
+.car-img {
+    width: 5rem;
+}
+
+/* Menu stylish started */
+
+.car {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-model {
+    display: flex;
+    align-items: center;
+
+    border-bottom: var(--header-color) 1px solid;
+}
+
+h3 {
+    margin-right: 1rem;
+
+    color: var(--main-color);
+}
+
+.info-pin {
+    width: 1rem;
+}
+
+/* Menu stylish finished */
+
+/* Mobile adaptations */
+
 @media (max-width: 768px) {
 
-    #space {
-        display: none;
+    #left-section {
+        display: none !important;
     }
-
     header {
         flex: space-between;
         padding: 0 1rem;
@@ -60,10 +144,31 @@ header {
     .header-elements {
         font-size: .8rem;
     }
+    #logo-seeg {
+        width: 10vh;
+    }
+
+
+
+    main {
+        margin-top: 1.5rem;
+    }
+
+    #top-banner{
+        margin-bottom: 1rem;
+    }
+
+    #banner1 {
+        width: 24rem;
+    }
+
+    #banner2 {
+        width: 8.1rem;
+
+        margin-right: .9rem;
+    }
+
+    #banner3 {
+        width: 15rem;
+    }
 } 
-
-
-
-.car-img {
-    width: 5rem;
-}
