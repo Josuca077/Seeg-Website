@@ -13,7 +13,6 @@ body{
     display: flex;
     flex-direction: column;
     
-
     margin: 0;
 }
 
@@ -24,20 +23,20 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    padding: 0 7.5rem;
+    padding: 0 7.19854vw;
 
     background-color: var(--header-color);
 }
 
 #header-text {
-    width: 10rem;
+    width: 11.941vw;
     color: var(--font-color-white);
     font-weight: 500;
 }
 
 #logo-seeg {
-    width: 10rem;
-    margin: 1rem;
+    width: 11.941vw;
+    margin: 1.194vw;
 }
 
 #right-section {
@@ -47,11 +46,11 @@ header {
     font-weight: 500;
     color: var(--font-color-white);
 
-    width: 10rem;
+    width: 11.941vw;
 }
 
 #pin {
-    width: 1rem;
+    width: 1.1941vw;
 }
 
 #left-section {
@@ -59,10 +58,10 @@ header {
 }
 
 #car-pin {
-    width: 1.3rem;
+    width: 1.553vw;
 
-    padding-right: 1rem;
-    padding-bottom: .1rem;
+    padding-right: 1.194vw;
+    padding-bottom: .1194vw;
 }
 
 /* Header stylish finished */
@@ -74,57 +73,41 @@ main {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 3rem;
+    margin-top: 3.5821vw;
 
-    margin-bottom: 10rem;
-}
-
-#top-banner {
-    margin-bottom: 1.5rem;
+    margin-bottom: 11.9403vw;
 }
 
 #banners {
-    margin-bottom: 5rem;
+    margin-bottom: 5.97015vw;
+}
+
+#top-banner {
+    margin-bottom: 1.79105vw;
 }
 
 .banner {
-    border-radius: 1rem;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 2);
+    border-radius: 1.194vw;
+    box-shadow: 0.313vw 0.313vw 0.625vw rgba(0, 0, 0, 2);
 }
 
 #banner1 {
-    width: 100rem;
+    width: 95.981vw;
 }
 
 #banner2 {
-    width: 34.45rem;
+    width: 33.065vw;
 
-    margin-right: 1.5rem;
+    margin-right: 1.4397vw;
 }
 
 #banner3 {
-    width: 64.05rem;
+    width: 61.476vw;
 }
 
 /* Banner stylish finished */
 
 /* Menu stylish started */
-
-#menu-title {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-
-    font-weight: 900;
-    font-size: 2.5rem;
-    color: var(--font-color-white);
-
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-#models {
-    color: var(--main-color);
-    font-family: 'Roboto Condensed', sans-serif;
-}
 
 #car-menu {
     display: flex;
@@ -143,13 +126,29 @@ main {
 
     background-color: var(--first-row-color);
 
-    padding-bottom: 4rem;
+    padding-bottom: 4.31265vw;
 
-    margin-bottom: 5rem;
+    margin-bottom: 5.39085vw;
 }
 
 #second-row {
     width: 100%;
+}
+
+#menu-title {
+    margin-bottom: 3.2345vw;
+    margin-top: 3.2345vw;
+
+    font-weight: 900;
+    font-size: 2.695417vw;
+    color: var(--font-color-white);
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#models {
+    color: var(--main-color);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .cars {
@@ -167,41 +166,41 @@ main {
 
     background-image: linear-gradient(to bottom, white, #cbcbcb);
 
-    border-radius: 1rem;
+    border-radius: 1.194vw;
 
-    width: 29rem;
-    height: 27rem;
+    width: 31.267vw;
+    height: 29.111vw;
 }
 
 .model-pin {
     display: flex;
     flex-direction: column;
 
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.194vw;
+    padding-right: 1.194vw;
 }
 
 .car-model {
     display: flex;
     align-items: center;
 
-    border-bottom: var(--header-color) 1.5px solid;
-    margin-top: 2rem;
-    padding-bottom: .5rem;
+    border-bottom: var(--header-color) 0.078vw solid;
+    margin-top: 2.1563vw;
+    padding-bottom: .5391vw;
 
-    font-size: 1rem;
+    font-size: 1.194vw;
 
-    width: 27rem;
-    height: 2rem;
+    width: 29.111vw;
+    height: 2.157vw;
 }
 
 h3 {
-    margin-right: 5rem;
-    margin-left: .9rem;
+    margin-right: 5.39085vw;
+    margin-left: .97035vw;
 
     color: var(--main-color);
 
-    font-size: 1.83rem;
+    font-size: 1.9vw;
 }
 
 .model {
@@ -209,42 +208,42 @@ h3 {
 }
 
 .info-pin {
-    width: 1.5rem;
+    width: 1.618vw;
 
-    margin-top: 1rem;
-    padding-left: 1rem;
+    margin-top: 1.0782vw;
+    padding-left: 1.0782vw;
 }
 
 .car-img-container {
     display: flex;
     justify-content: center;
 
-    padding-top: 3.5rem;
+    padding-top: 3.77356vw;
 }
 
 .car-img {    
-    width: 20rem;
+    width: 21.564vw;
 }
 
 .menu-btn {
-    margin-top: 2rem;
-    margin-bottom: .7rem;
+    margin-top: 2.1563vw;
+    margin-bottom: .7547vw;
     border: none;
 
     background-color: var(--main-color);
     color: var(--font-color-white);
     font-weight: 700;
-    font-size: 1.5rem;
-    border-radius: .5rem;
-    padding: .2rem 1rem;
+    font-size: 1.65vw;
+    border-radius: .6vw;
+    padding: .2156vw 1.0782vw;
     font-family: 'Roboto Condensed', sans-serif;
 
-    width: 17rem;
+    width: 18.329vw;
 }
 
 .more-info {
     color: var(--header-color);
-    font-size: .9rem;
+    font-size: 1.0746vw;
 
     text-decoration: underline;
 }
