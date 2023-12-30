@@ -74,8 +74,7 @@ main {
     align-items: center;
 
     margin-top: 3.5821vw;
-
-    margin-bottom: 11.9403vw;
+    margin-bottom: 5vw;
 }
 
 #banners {
@@ -114,7 +113,9 @@ main {
     flex-direction: column;
     align-items: center;
 
-    width: 100%
+    width: 100%;
+
+    margin-bottom: 10vw;
 }
 
 #first-row {
@@ -131,8 +132,10 @@ main {
     margin-bottom: 5.39085vw;
 }
 
-#second-row {
+.other-rows {
     width: 100%;
+
+    margin-bottom: 5.39085vw;
 }
 
 #menu-title {
@@ -165,10 +168,11 @@ main {
     align-items: center;
 
     background-image: linear-gradient(to bottom, white, #cbcbcb);
+    box-shadow: 0.313vw 0.313vw 0.625vw rgba(0, 0, 0, .4);
 
     border-radius: 1.194vw;
 
-    width: 31.267vw;
+    width: 27vw;
     height: 29.111vw;
 }
 
@@ -190,7 +194,7 @@ main {
 
     font-size: 1.194vw;
 
-    width: 29.111vw;
+    width: 25vw;
     height: 2.157vw;
 }
 
@@ -200,11 +204,12 @@ h3 {
 
     color: var(--main-color);
 
-    font-size: 1.9vw;
+    font-size: 1.6vw;
 }
 
 .model {
     font-weight: 500;
+    font-size: .95vw;
 }
 
 .info-pin {
@@ -222,7 +227,7 @@ h3 {
 }
 
 .car-img {    
-    width: 21.564vw;
+    width: 21vw;
 }
 
 .menu-btn {
@@ -238,17 +243,102 @@ h3 {
     padding: .2156vw 1.0782vw;
     font-family: 'Roboto Condensed', sans-serif;
 
-    width: 18.329vw;
+    width: 17vw;
 }
 
 .more-info {
     color: var(--header-color);
-    font-size: 1.0746vw;
+    font-size: 1vw;
 
     text-decoration: underline;
 }
 
+.deactivated{
+    width: 27vw;
+}
+
 /* Menu stylish finished */
+
+/* Contact button stylish started */
+
+#contact-btn img{
+    width: 30vw;
+}
+
+/* Contact button stylish finished */
+
+/* Footer stylish started */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 16vw;
+
+    padding: 0 3vw;
+
+    background-color: var(--header-color);
+    color: var(--font-color-white);
+}
+
+#footer-logo {
+    display: flex;
+    flex-direction: column;
+
+    height: 16vw;
+}
+
+#footer-logo img {
+    width: 15vw;
+    height: 8vw;
+}
+
+#disclaimer {
+    display: flex;
+    flex-direction: column;
+}
+
+#stamps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 3vw;
+}
+
+#bar {
+    margin: 0 1vw;
+}
+
+#quality {
+    display: flex;
+    align-items: center;
+}
+
+#quality img {
+    width: 2vw;
+}
+
+#safety {
+    display: flex;
+    align-items: center;
+}
+
+#safety img {
+    width: 3vw;
+}
+
+#company {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+/* Footer stylish finished */
 
 /* Mobile adaptations */
 
@@ -267,8 +357,22 @@ h3 {
     #logo-seeg {
         width: 10vh;
     }
+    #right-section {
+        justify-content: flex-end;
 
+        font-size: .7rem;
 
+        width: 10rem;
+    }
+
+    #right-section span {
+        margin-right: .5rem;
+    }
+
+    #pin {
+
+        width: .8rem;
+    }
 
     main {
         margin-top: 1.5rem;
