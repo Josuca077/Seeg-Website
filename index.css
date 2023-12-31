@@ -42,6 +42,7 @@ header {
 #right-section {
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-end;
 
     font-weight: 500;
     color: var(--font-color-white);
@@ -114,8 +115,6 @@ main {
     align-items: center;
 
     width: 100%;
-
-    margin-bottom: 10vw;
 }
 
 #first-row {
@@ -239,9 +238,10 @@ h3 {
     color: var(--font-color-white);
     font-weight: 700;
     font-size: 1.65vw;
+    font-family: 'Roboto Condensed', sans-serif;
+
     border-radius: .6vw;
     padding: .2156vw 1.0782vw;
-    font-family: 'Roboto Condensed', sans-serif;
 
     width: 17vw;
 }
@@ -261,8 +261,37 @@ h3 {
 
 /* Contact button stylish started */
 
+#contact-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-bottom: 1.2vw;
+    padding-top: 3vw;
+    
+    background-color: var(--main-color);
+
+    width: 100%;
+    height: 20vw;
+}
+
+#contact-btn span {
+    color: var(--font-color-white);
+    font-size: 2.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+#outstanding {
+    color: var(--header-color) !important;
+    font-weight: 500;
+}
+
 #contact-btn img{
     width: 30vw;
+
+    margin-top: 1vw;
 }
 
 /* Contact button stylish finished */
